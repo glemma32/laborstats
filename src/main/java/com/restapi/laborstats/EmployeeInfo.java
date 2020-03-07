@@ -5,15 +5,15 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class EmployeeInfo {
-	@JsonProperty("id")
+	
 	private String id;
-	@JsonProperty("employee_name")
+	
 	private String employee_name;
-	@JsonProperty("employee_salary")
+	
 	private String employee_salary;
-	@JsonProperty("employee_age")
+
 	private String employee_age;
-	@JsonProperty("profile_image")
+
 	private String profile_image;
 	
 	public String getId() {

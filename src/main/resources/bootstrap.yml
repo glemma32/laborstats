@@ -1,0 +1,15 @@
+---
+applications:
+- name: laborstat
+  path: target/laborstat.jar
+  domain: cfapps.io
+  memory: 512M
+  instances: 1
+  services:
+    - app-java
+    
+    # Goto the project folder in command prompt
+#cf login api.run.pivotal.io
+#UN/PWD
+#cf t -s {SpaceName}
+#cf push -p  target/{appNameJAR}.jar {appName}

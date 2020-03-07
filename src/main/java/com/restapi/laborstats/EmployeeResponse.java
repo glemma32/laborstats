@@ -8,10 +8,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class EmployeeResponse {
 	
-	@JsonProperty("status")
+	
 	private String status;
-	@JsonProperty("data")
 	private List<EmployeeInfo> data;
+	
 	public String getStatus() {
 		return status;
 	}
